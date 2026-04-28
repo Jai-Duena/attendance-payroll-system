@@ -1,0 +1,25 @@
+# Never cache index.html — forces the browser to always fetch the latest version
+# so updated JS/CSS bundle hashes take effect immediately after a new deployment.
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </Files>
+</IfModule>
+
+# Serve the React SPA — redirect all non-file/folder requests to index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Don't rewrite requests to the backend subfolder
+  RewriteRule ^backend/ - [L]
+
+  # Don't rewrite actual files or directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Send everything else to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>

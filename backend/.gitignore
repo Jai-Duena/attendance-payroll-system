@@ -1,0 +1,29 @@
+# Environment & secrets
+.env
+.env.*
+config/db.php
+config/db_webhost.php
+config/mail.php
+config/ftp_check.php
+
+# Uploads
+uploads/
+
+# Build artifacts
+build/
+dist/
+bio-sync-app/build/
+bio-sync-app/dist/
+bio-sync-app/installer_output/
+bio-sync-app/__pycache__/
+bio-sync-app/core/__pycache__/
+bio-sync-app/ui/__pycache__/
+bio-sync-app/ui/tabs/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Database init flag
+.db_initialized

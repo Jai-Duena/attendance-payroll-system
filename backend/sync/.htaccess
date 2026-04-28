@@ -1,0 +1,5 @@
+# Block direct access to .sql files — only trigger.php can read them
+<Files "*.sql">
+    Order allow,deny
+    Deny from all
+</Files>

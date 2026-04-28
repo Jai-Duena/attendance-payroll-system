@@ -1,0 +1,13 @@
+Options -Indexes
+
+# Route all requests through PHP files (no pretty URLs needed for plain PHP)
+# Required if you add index routing later
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /backend/
+
+    # Allow direct access to real files and folders
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
