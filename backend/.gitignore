@@ -27,3 +27,26 @@ bio-sync-app/ui/tabs/__pycache__/
 
 # Database init flag
 .db_initialized
+
+# Dev/debug utilities
+dbcheck.php
+dbtest.php
+run-setup.php
+setup-debug.php
+seed.php
+
+# Test data
+sql/seed_test_employees.sql
+
+# Runtime state
+api/attendance/last_synced_id.txt
+
+# Environment-specific
+config/ca.pem
+config/upload_db.php
+
+# IDE files
+*.code-workspace
+
+# Full DB dumps
+fch_install.sql
