@@ -24,6 +24,8 @@ A full-stack web-based HR management system for employee attendance tracking, pa
 - **pyzk** — ZKTeco device communication protocol
 - **Windows Task Scheduler** — Automated sync every 2 minutes
 
+> **Device used:** ZKTeco ZK3969
+
 ---
 
 ## Features
@@ -116,6 +118,8 @@ python main.py
 ```
 
 Configure the ZKTeco device IP in the app, then register the Windows Task Scheduler task via `register-sync-task.ps1`.
+
+> **Compatible devices:** The sync app uses the [`pyzk`](https://github.com/fananimi/pyzk) library, which communicates via the standard ZKTeco TCP/IP protocol (port 4370). It is compatible with **any networked ZKTeco device** that supports this protocol — not just the ZK3969. It is **not** compatible with biometric devices from other brands (e.g. Suprema, HikVision, Anviz), as those use different communication protocols.
 
 ---
 
