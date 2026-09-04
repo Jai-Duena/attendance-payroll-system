@@ -126,24 +126,24 @@ Configure the ZKTeco device IP in the app, then register the Windows Task Schedu
 ## Screenshots
 
 **Login**
-![Login](screenshots/login.png)
+![Login](screenshots/login.png?v=20260905)
 
 **Admin Dashboard**
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png?v=20260905)
 
-![Dashboard - Requests & Notes](screenshots/dashboard1.png)
+![Dashboard - Requests & Notes](screenshots/dashboard1.png?v=20260905)
 
 **Attendance**
-![Attendance](screenshots/attendance.png)
+![Attendance](screenshots/attendance.png?v=20260905)
 
 **Payroll Management**
-![Payroll](screenshots/payroll.png)
+![Payroll](screenshots/payroll.png?v=20260905)
 
 **Employee Directory**
-![Employees](screenshots/employee.png)
+![Employees](screenshots/employee.png?v=20260905)
 
 **Settings**
-![Settings](screenshots/settings.png)
+![Settings](screenshots/settings.png?v=20260905)
 
 ---
 
