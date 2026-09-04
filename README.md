@@ -139,11 +139,11 @@ Configure the ZKTeco device IP in the app, then register the Windows Task Schedu
 **Payroll Management**
 ![Payroll](screenshots/payroll.png)
 
-**Shift Schedule**
-![Shift Schedule](screenshots/shift.png)
-
 **Employee Directory**
 ![Employees](screenshots/employee.png)
+
+**Settings**
+![Settings](screenshots/settings.png)
 
 ---
 
