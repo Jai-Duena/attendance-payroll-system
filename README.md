@@ -1,3 +1,4 @@
+DEMO: http://attendancepayroll.free.nf/
 # Attendance & Payroll Management System
 
 A full-stack web-based HR management system for employee attendance tracking, payroll processing, and biometric device integration. Built for small-to-medium businesses in the Philippines with support for government-mandated contributions (SSS, PhilHealth, PAG-IBIG, BIR).
